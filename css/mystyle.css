@@ -72,15 +72,15 @@
     background: #000000;
   }
 
-  .section-title {
+  .vn-section-title {
     padding-bottom: 40px;
   }
 
-  .section-title h2 {
+  .vn-section-title h2 {
     margin: 0;
   }
 
-  .section-title h4 {
+  .vn-section-title h4 {
     color: #bfbdbd;
     font-size: 10px;
     letter-spacing: 1px;
@@ -112,7 +112,7 @@
   }
 
   .about-image img,
-  .team-thumb img {
+  .vn-team-thumb img {
     width: 100%;
   }
   
@@ -302,16 +302,16 @@
 
 
 
-  #home {
+  #vn-home {
     padding: 0;
   }
 
-  #home h1 {
+  #vn-home h1 {
     color: #ffffff;
     padding-bottom: 30px;
   }
 
-  #home h3 {
+  #vn-home h3 {
     color: #f9f9f9;
     font-size: 14px;
     line-height: inherit;
@@ -321,12 +321,12 @@
   }
 
   @media (min-width: 768px) {
-    .slider .col-md-8 {
+    .vn-slider .col-md-8 {
       padding-left: 0;
     }
   }
 
-  .slider .owl-dots {
+  .vn-slider .owl-dots {
     position: absolute;
     top: 50%;
     right: 2em;
@@ -353,7 +353,7 @@
     border-color: transparent;
   }
 
-  .slider .caption {
+  .vn-slider .vn-caption {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -365,7 +365,7 @@
     padding: 4em 0 0 2em;
   }
 
-  .slider .item {
+  .vn-slider .item {
     background-position: inherit;
     background-repeat: no-repeat;
     background-attachment: local;
@@ -373,33 +373,33 @@
     height: 650px;
   }
 
-  .slider .item-first {
+  .vn-slider .item-first {
     background-image: url(../images/slider-image1.jpg);
   }
 
-  .slider .item-second {
+  .vn-slider .item-second {
     background-image: url(../images/slider-image2.jpg);
   }
 
-  .slider .item-third {
+  .vn-slider .item-third {
     background-image: url(../images/slider-image3.jpg);
   }
 
-  .slider .item-second .section-btn {
+  .vn-slider .item-second .section-btn {
     background: #292929;
   }
 
-  .slider .item-second .section-btn:hover {
+  .vn-slider .item-second .section-btn:hover {
     background: #ffffff;
   }
 
-  .slider .item-third .section-btn {
+  .vn-slider .item-third .section-btn {
     background: transparent;
     border: 1px solid #ffffff;
   }
 
-  .slider .item-third .section-btn:hover,
-  .slider .item-third .section-btn:focus {
+  .vn-slider .item-third .section-btn:hover,
+  .vn-slider .item-third .section-btn:focus {
     background: #ce3232;
     border-color: transparent;
     color: #ffffff;
@@ -408,15 +408,15 @@
 
 
 
-  #about {
+  #vn-about {
     padding-bottom: 0;
   }
 
-  .about-info {
+  .vn-about-info {
     padding: 0 6em 5em 0;
   }
 
-  .about-info .section-title {
+  .vn-about-info .vn-section-title {
     padding-bottom: 20px;
   }
 
@@ -431,7 +431,7 @@
     background: #f9f9f9;
   }
 
-  .team-thumb {
+  .vn-team-thumb {
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -441,7 +441,7 @@
     padding: 10px 30px 20px 30px;
   }
 
-  .team-thumb .team-hover {
+  .vn-team-thumb .team-hover {
     position: absolute;
     background: #1c1c1c;
     width: 100%;
@@ -456,21 +456,21 @@
     transition: 0.5s 0.2s;
   }
 
-  .team-thumb:hover .team-hover {
+  .vn-team-thumb:hover .team-hover {
     opacity: 0.95;
     transition-delay: 0.3s;
     transform: translateY(0);
   }
 
-  .team-thumb img {
+  .vn-team-thumb img {
     transition: 0.5s 0.2s;
   }
 
-  .team-thumb:hover img {
+  .vn-team-thumb:hover img {
     transform: scale(1.2);
   }
 
-  .team-thumb .social-icon li a {
+  .vn-team-thumb .social-icon li a {
     background: #292929;
     border-radius: 100%;
     width: 50px;
@@ -481,7 +481,7 @@
     margin: 15px 5px 0 5px;
   }
 
-  .team-thumb .team-item {
+  .vn-team-thumb .team-item {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -653,16 +653,16 @@
 
 
 
-  #contact .section-title {
+  #vn-contact .vn-section-title {
     padding-bottom: 0;
   }
 
-  #contact .text-success,
-  #contact .text-danger {
+  #vn-contact .text-success,
+  #vn-contact .text-danger {
     display: none;
   }
 
-  #contact .form-control {
+  #vn-contact .form-control {
     background: transparent;
     border: 0;
     border-bottom: 1px solid #dddddd;
@@ -674,16 +674,16 @@
     transition: all ease-in-out 0.4s;
   }
 
-  #contact .form-control:hover,
-  #contact .form-control:focus {
+  #vn-contact .form-control:hover,
+  #vn-contact .form-control:focus {
     border-bottom-color: #c9c9c9;
   }
 
-  #contact input {
+  #vn-contact input {
     height: 55px;
   }
 
-  #contact button#cf-submit {
+  #vn-contact button#cf-submit {
     background: #ce3232;
     border-radius: 0;
     border: 0;
@@ -692,7 +692,7 @@
     height: 50px;
   }
 
-  #contact button#cf-submit:hover {
+  #vn-contact button#cf-submit:hover {
     background: #292929;
     color: #ffffff;
   }
@@ -706,7 +706,7 @@
     padding-bottom: 80px;
   }
 
-  footer .section-title {
+  footer .vn-section-title {
     padding-bottom: 10px;
   }
 
@@ -815,7 +815,7 @@
 
 
   @media only screen and (max-width: 1200px) {
-    .about-info {
+    .vn-about-info {
       padding-right: 0;
     }
 
@@ -834,11 +834,11 @@
       margin-left: 1em;
     }
 
-    .slider .item {
+    .vn-slider .item {
       background-position: center;
     }
 
-    .about-info {
+    .vn-about-info {
       padding: 0;
     }
 
@@ -917,7 +917,7 @@
       color: #ffffff !important;
     }
 
-    .slider .caption {
+    .vn-slider .vn-caption {
       padding: 0;
     }
 
