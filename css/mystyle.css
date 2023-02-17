@@ -54,7 +54,7 @@
     color: #252525;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    text-decoration: none !important;
+    text-decoration: none;
   }
 
   a:hover, a:active, a:focus {
